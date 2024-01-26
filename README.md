@@ -63,13 +63,13 @@ Use tools like a web browser or curl to test the server with different scenarios
    http://localhost:8080/data?n=1&m=1
    ```
 
-   as the files don't have much text than 0000 as I have imported files from 'https://code.google.com/archive/p/jquery-speedtest/downloads' and the lines are stored in one line only
-
    Expected Response:
 
    ```
-   { "text": "vyAF9kLDTIbqkv5R7hFqGDXaxezu3WMV5pcPd6RdudWMqMGJBQ9YLOoCQt" }
+   { "text": "0000000000000" }
    ```
+
+   as the files don't have much text than 0000 in just line 1 as I have imported files from 'https://code.google.com/archive/p/jquery-speedtest/downloads' and the lines are stored in one line only
 
 2. **Get entire content of a file:**
 
